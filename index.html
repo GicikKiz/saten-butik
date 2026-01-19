@@ -1,216 +1,303 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>saten BUTİK</title>
+
     <!-- BOOTSTRAP CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
 
     <!-- FONT AWESOME -->
-    <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/all.css">
+    <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/all.css" />
+  </head>
 
-
-
-</head>
-
-<body>
+  <body>
     <header>
+      <body data-spy="scroll" data-target="#navbarResponsive">
+        <!-- start home section-->
 
-        <body data-spy="scroll" data-target="#navbarResponsive">
+        <div id="home">
+          <!-- navigation-->
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html"
+              ><img src="img/sateen-beyaz.svg" alt="logo"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
-            <!-- start home section-->
-
-            <div id="home">
-
-                <!-- navigation-->
-                <nav class="navbar navbar-expand-lg  navbar-dark bg-dark fixed-top">
-                    <a class="navbar-brand" href="index.html"><img src="img/sateen-beyaz.svg" alt="logo"></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item active">
-                                <a id="myBtn" class="nav-link" href="#">
-                                    <i class="fa-sharp fa-solid fa-truck" style="color: white;"></i>
-                                    SİPARİŞ TAKİBİ</a>
-                                <div id="myModal" class="modal-2">
-                                    <div class="modal-content-2">
-                                        <span class="close">&times;</span>
-                                        <p class="text-center">Lütfen Üye Girişi Yapın!</p>
-                                        <p class="text-center"><a href="uyegirisi.html">Üye Girişi</a></p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
-                                    aria-expanded="false" style="color: white;">
-                                    YARDIM
-                                </a>
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">Hesabım</a>
-                                    <a class="dropdown-item" href="#">Siparişlerim</a>
-                                    <a class="dropdown-item" href="#">İptal & İade Bilgileri</a>
-                                    <a class="dropdown-item" href="#">Kolay İade</a>
-                                    <a class="dropdown-item" href="#">Üyelik İşlemleri</a>
-                                    <a class="dropdown-item" href="#">Sıkça Sorulan Sorular</a>
-                                    <a class="dropdown-item" href="#">Kvkk</a>
-                                    <a class="dropdown-item" href="#">hakkımızda</a>
-                                    <a class="dropdown-item" href="#">Mağazalar</a>
-                                    <a class="dropdown-item" href="#">İletişim</a>
-
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="uyegirisi.html" style="color: white;">ÜYE GİRİŞİ</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="sepetim.html" style="color: white;">SEPETİM
-                                    <i class="fa-sharp fa-solid fa-bag-shopping" style="color: white;"></i></a>
-                            </li>
-                        </ul>
-
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a id="myBtn" class="nav-link" href="#">
+                    <i
+                      class="fa-sharp fa-solid fa-truck"
+                      style="color: white"
+                    ></i>
+                    SİPARİŞ TAKİBİ</a
+                  >
+                  <div id="myModal" class="modal-2">
+                    <div class="modal-content-2">
+                      <span class="close">&times;</span>
+                      <p class="text-center">Lütfen Üye Girişi Yapın!</p>
+                      <p class="text-center">
+                        <a href="uyegirisi.html">Üye Girişi</a>
+                      </p>
                     </div>
-                </nav>
-                <!-- end navigation-->
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-expanded="false"
+                    style="color: white"
+                  >
+                    YARDIM
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Hesabım</a>
+                    <a class="dropdown-item" href="#">Siparişlerim</a>
+                    <a class="dropdown-item" href="#">İptal & İade Bilgileri</a>
+                    <a class="dropdown-item" href="#">Kolay İade</a>
+                    <a class="dropdown-item" href="#">Üyelik İşlemleri</a>
+                    <a class="dropdown-item" href="#">Sıkça Sorulan Sorular</a>
+                    <a class="dropdown-item" href="#">Kvkk</a>
+                    <a class="dropdown-item" href="#">hakkımızda</a>
+                    <a class="dropdown-item" href="#">Mağazalar</a>
+                    <a class="dropdown-item" href="#">İletişim</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="uyegirisi.html" style="color: white"
+                    >ÜYE GİRİŞİ</a
+                  >
+                </li>
 
-
+                <li class="nav-item">
+                  <a class="nav-link" href="sepetim.html" style="color: white"
+                    >SEPETİM
+                    <i
+                      class="fa-sharp fa-solid fa-bag-shopping"
+                      style="color: white"
+                    ></i
+                  ></a>
+                </li>
+              </ul>
             </div>
-            <!--end home section-->
+          </nav>
+          <!-- end navigation-->
+        </div>
+        <!--end home section-->
 
+        <!-- slider alanı -->
 
-
-
-            <!-- slider alanı -->
-
-            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="img/web-incelemenintamzamani-261022.jpg" class="d-block w-100" alt="..."
-                            style="height: 680px;">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/web-slider-3-011122.jpg" class="d-block w-100" alt="..." style="height: 680px;">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/web-slider4-021222.jpg" class="d-block w-100" alt="..." style="height: 680px;">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/web-slidersayfa2-021222.webp" class="d-block w-100" alt="..."
-                            style="height: 680px;">
-                    </div>
-
-                    <!-- Previous & Next Buttons -->
-
-                    <a href="#carouselExampleFade" class="carousel-control-prev" role="button" data-slide="prev">
-                        <span class="fas fa-chevron-left fa-2x"></span>
-                    </a>
-
-                    <a href="#carouselExampleFade" class="carousel-control-next" role="button" data-slide="next">
-                        <span class="fas fa-chevron-right fa-2x"></span>
-                    </a>
-
-                    <!-- End Previous & Next Buttons -->
-                </div>
-
-
+        <div
+          id="carouselExampleFade"
+          class="carousel slide carousel-fade"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="img/web-incelemenintamzamani-261022.jpg"
+                class="d-block w-100"
+                alt="..."
+                style="height: 680px"
+              />
             </div>
-
-            <!-- SAYFADAKİ İKİNCİ GÖRSEL ALANI -->
-            <div class="cover">
-                <div class="wrapper">
-
-                    <div class="content text-center">
-                        <h1>Gömlek</h1>
-                        <p>Yükselen Enerjiyi Hisset</p>
-                        <hr color="#fff" width="250">
-                        <a href="gomlek.html"> <button type="button" class="btn btn-outline-light">İncele</button></a>
-                    </div>
-                    <!-- yan menu -->
-                    <nav id="sidebar">
-
-                        <ul class="list-unstyled components">
-
-                            <li class="active">
-                                <!-- Menülerimize .text-light sınıfını ekledik. -->
-                                <a href="#creditSubmenu" data-toggle="collapse" aria-expanded="false"
-                                    class="dropdown-toggle text-decoration-none" style="color:#f2d5a3;">Koleksiyon</a>
-                                <ul class="collapse list-unstyled" id="creditSubmenu">
-                                    <li>
-                                        <a href="gomlek.html" class="text-decoration-none"
-                                            style="color: #e76035;">Gömlek</a>
-                                    </li>
-                                    <li>
-                                        <a href="pantolon.html" class=" text-decoration-none"
-                                            style="color: #e76035;">Pantolon</a>
-                                    </li>
-                                    <li>
-                                        <a href="ceket.html" class="text-decoration-none"
-                                            style="color: #e76035;">Ceket</a>
-                                    </li>
-                                    <li>
-                                        <a href="bluz.html" class=" text-decoration-none"
-                                            style="color: #e76035;">Bluz</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-
-                            </li>
-
-                            <li>
-                                <a href="yilbasi.html" class="text-decoration-none" style="color:#f2d5a3;">Party
-                                    Collectıon</a>
-                            </li>
-                            <li>
-                                <a href="trend-deri.html" class="text-decoration-none" style="color:#f2d5a3;">Deri
-                                    Modası</a>
-                            </li>
-                            <li>
-                                <a href="kadin-elbise.html" class="text-decoration-none" style="color:#f2d5a3;">Trend
-                                    Elbise</a>
-                            </li>
-                        </ul>
-                    </nav>
-
-                </div>
+            <div class="carousel-item">
+              <img
+                src="img/web-slider-3-011122.jpg"
+                class="d-block w-100"
+                alt="..."
+                style="height: 680px"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/web-slider4-021222.jpg"
+                class="d-block w-100"
+                alt="..."
+                style="height: 680px"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/web-slidersayfa2-021222.webp"
+                class="d-block w-100"
+                alt="..."
+                style="height: 680px"
+              />
             </div>
 
-            <!-- SAYFADAKİ ÜÇÜNCÜ GÖRSEL ALANI -->
-            <div class="cover-2">
-                <div class="content text-center">
-                    <h1>Ceket</h1>
-                    <p>Estetik, Rahat,Özgür</p>
-                    <hr color="#fff" width="250">
-                    <a href="ceket.html"> <button type="button" class="btn btn-outline-light">İncele</button></a>
-                </div>
+            <!-- Previous & Next Buttons -->
 
+            <a
+              href="#carouselExampleFade"
+              class="carousel-control-prev"
+              role="button"
+              data-slide="prev"
+            >
+              <span class="fas fa-chevron-left fa-2x"></span>
+            </a>
+
+            <a
+              href="#carouselExampleFade"
+              class="carousel-control-next"
+              role="button"
+              data-slide="next"
+            >
+              <span class="fas fa-chevron-right fa-2x"></span>
+            </a>
+
+            <!-- End Previous & Next Buttons -->
+          </div>
+        </div>
+
+        <!-- SAYFADAKİ İKİNCİ GÖRSEL ALANI -->
+        <div class="cover">
+          <div class="wrapper">
+            <div class="content text-center">
+              <h1>Gömlek</h1>
+              <p>Yükselen Enerjiyi Hisset</p>
+              <hr color="#fff" width="250" />
+              <a href="gomlek.html">
+                <button type="button" class="btn btn-outline-light">
+                  İncele
+                </button></a
+              >
             </div>
+            <!-- yan menu -->
+            <nav id="sidebar">
+              <ul class="list-unstyled components">
+                <li class="active">
+                  <!-- Menülerimize .text-light sınıfını ekledik. -->
+                  <a
+                    href="#creditSubmenu"
+                    data-toggle="collapse"
+                    aria-expanded="false"
+                    class="dropdown-toggle text-decoration-none"
+                    style="color: #f2d5a3"
+                    >Koleksiyon</a
+                  >
+                  <ul class="collapse list-unstyled" id="creditSubmenu">
+                    <li>
+                      <a
+                        href="gomlek.html"
+                        class="text-decoration-none"
+                        style="color: #e76035"
+                        >Gömlek</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="pantolon.html"
+                        class="text-decoration-none"
+                        style="color: #e76035"
+                        >Pantolon</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="ceket.html"
+                        class="text-decoration-none"
+                        style="color: #e76035"
+                        >Ceket</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="bluz.html"
+                        class="text-decoration-none"
+                        style="color: #e76035"
+                        >Bluz</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li></li>
 
+                <li>
+                  <a
+                    href="yilbasi.html"
+                    class="text-decoration-none"
+                    style="color: #f2d5a3"
+                    >Party Collectıon</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="trend-deri.html"
+                    class="text-decoration-none"
+                    style="color: #f2d5a3"
+                    >Deri Modası</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="kadin-elbise.html"
+                    class="text-decoration-none"
+                    style="color: #f2d5a3"
+                    >Trend Elbise</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
 
-            <!-- Optional JavaScript; choose one of the two! -->
+        <!-- SAYFADAKİ ÜÇÜNCÜ GÖRSEL ALANI -->
+        <div class="cover-2">
+          <div class="content text-center">
+            <h1>Ceket</h1>
+            <p>Estetik, Rahat,Özgür</p>
+            <hr color="#fff" width="250" />
+            <a href="ceket.html">
+              <button type="button" class="btn btn-outline-light">
+                İncele
+              </button></a
+            >
+          </div>
+        </div>
 
-            <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-            <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-                crossorigin="anonymous"></script>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
-                crossorigin="anonymous"></script>
+        <!-- Optional JavaScript; choose one of the two! -->
 
-            <script src="Popup.js"></script>
+        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+        <script
+          src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+          integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+          crossorigin="anonymous"
+        ></script>
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+          crossorigin="anonymous"
+        ></script>
 
-            <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <script src="Popup.js"></script>
 
-            <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+        <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
                 integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
                 crossorigin="anonymous"></script>
             <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
@@ -219,9 +306,7 @@
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
                 integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
                 crossorigin="anonymous"></script> -->
-        </body>
-
+      </body>
     </header>
-</body>
-
+  </body>
 </html>

@@ -20,7 +20,6 @@ body {
   font-weight: 700;
   font-size: 0.9rem;
   letter-spacing: 0.1rem;
-  background: rgba(0, 0, 0, 0.6) !important;
 }
 
 .navbar-brand img {
@@ -316,16 +315,13 @@ input[type="checkbox"]:checked + label:before {
 
 /* Sayfa genişliği 768 px ve daha aşağı değerlerde olduğunda sidebar menüyü ve butonda bulunan yazıyı kaldırdık. */
 @media (max-width: 768px) {
-  #sidebar {
-    margin-left: -250px;
-  }
-
-  #sidebar.active {
-    margin-left: 0;
-  }
-
-  #sidebarCollapse span {
+  .content {
     display: none;
+  }
+
+  #sidebar {
+    padding-top: 300px;
+    padding-left: 150px;
   }
 }
 
