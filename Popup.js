@@ -17,9 +17,3 @@ span.onclick = function() {
     modal.style.display = "none";
 }
 
-// Kullanıcı modelden başka herhangi bir yeri tıklattıysa, onu kapatın.
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
