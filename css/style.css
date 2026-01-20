@@ -115,7 +115,7 @@ button {
   border: 1px solid black;
 }
 
-/*Checkboxes styles*/
+/*üye giriş alanı Checkboxes styles*/
 input[type="checkbox"] {
   display: none;
 }
@@ -267,7 +267,7 @@ input[type="checkbox"]:checked + label:before {
   text-align: center;
 }
 
-/*bu alan sayfadaki 2.görselin bilgileri */
+/*bu alan sayfadaki 2.görselin bilgileri "index sayfası" */
 
 .cover {
   width: 100%;
@@ -290,29 +290,6 @@ input[type="checkbox"]:checked + label:before {
 
 .cover .content > p {
   color: white;
-}
-
-/* YAN MENU ALANI */
-
-#sidebar {
-  margin-top: -30%;
-  margin-left: -35px;
-}
-
-/* Menülere üstten-alttan 20 px değerinde padding verdik. */
-#sidebar ul.components {
-  padding: 20px 0;
-}
-
-/* Menülerin font boyutunu artırdık ve menülere 10 px değerinde padding verdik. */
-#sidebar ul li a {
-  padding: 10px;
-  font-size: 1.1em;
-  display: block;
-}
-
-#sidebar ul li a.dropdown-toggle {
-  font-size: 1.2em;
 }
 
 /*bu alan sayfadaki 3.görselin bilgileri */
@@ -399,9 +376,34 @@ input[type="checkbox"]:checked + label:before {
   font-weight: bold;
 }
 
+/* footer daki MENU ALANI */
+
+#sidebar {
+  margin-top: -30%;
+  margin-left: -35px;
+}
+
+/* Menülere üstten-alttan 20 px değerinde padding verdik. */
+#sidebar ul.components {
+  padding: 20px 0;
+}
+
+/* Menülerin font boyutunu artırdık ve menülere 10 px değerinde padding verdik. */
+#sidebar ul li a {
+  padding: 10px;
+  font-size: 1.1em;
+  display: block;
+}
+
+#sidebar ul li a.dropdown-toggle {
+  font-size: 1.2em;
+}
+
 footer {
   background: rgba(0, 0, 0, 0.986);
 }
+
+/* footer end  */
 
 /* Sayfa genişliği 768 px ve daha aşağı değerlerde olduğunda sidebar menüyü ve butonda bulunan yazıyı kaldırdık. */
 @media (max-width: 768px) {
