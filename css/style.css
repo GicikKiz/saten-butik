@@ -294,23 +294,14 @@ input[type="checkbox"]:checked + label:before {
 
 /* YAN MENU ALANI */
 
-/* İçerik ile menüyü yan yana getirdik. */
-.wrapper {
-  margin-left: 30px;
-}
-
 #sidebar {
   margin-top: -30%;
+  margin-left: -35px;
 }
 
 /* Menülere üstten-alttan 20 px değerinde padding verdik. */
 #sidebar ul.components {
   padding: 20px 0;
-}
-
-/* Yan Menü yazısına 10 px değerinde padding değeri verdik. */
-#sidebar ul p {
-  padding: 10px;
 }
 
 /* Menülerin font boyutunu artırdık ve menülere 10 px değerinde padding verdik. */
@@ -320,16 +311,8 @@ input[type="checkbox"]:checked + label:before {
   display: block;
 }
 
-/* Sayfa genişliği 768 px ve daha aşağı değerlerde olduğunda sidebar menüyü ve butonda bulunan yazıyı kaldırdık. */
-@media (max-width: 768px) {
-  .content {
-    display: none;
-  }
-
-  #sidebar {
-    padding-top: 300px;
-    padding-left: 150px;
-  }
+#sidebar ul li a.dropdown-toggle {
+  font-size: 1.2em;
 }
 
 /*bu alan sayfadaki 3.görselin bilgileri */
@@ -414,4 +397,16 @@ input[type="checkbox"]:checked + label:before {
 .text-center {
   padding-top: 30px;
   font-weight: bold;
+}
+
+footer {
+  background: rgba(0, 0, 0, 0.986);
+}
+
+/* Sayfa genişliği 768 px ve daha aşağı değerlerde olduğunda sidebar menüyü ve butonda bulunan yazıyı kaldırdık. */
+@media (max-width: 768px) {
+  #sidebar {
+    padding-top: 95px;
+    padding-left: 10px;
+  }
 }
