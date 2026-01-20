@@ -20,6 +20,7 @@ body {
   font-weight: 700;
   font-size: 0.9rem;
   letter-spacing: 0.1rem;
+  background: rgba(0, 0, 0, 0.986);
 }
 
 .navbar-brand img {
@@ -124,7 +125,9 @@ input[type="checkbox"] + label {
   position: relative;
   padding-left: 66px;
   margin-bottom: 15px;
-  font: 14px/20px "Rajdhani", sans-serif;
+  font:
+    14px/20px "Rajdhani",
+    sans-serif;
   color: rgb(10, 10, 10);
   cursor: pointer;
   -webkit-user-select: none;
@@ -146,8 +149,12 @@ input[type="checkbox"] + label:before {
   left: 25px;
   top: 0;
   opacity: 0.6;
-  -webkit-transition: all 0.12s, border-color 0.08s;
-  transition: all 0.12s, border-color 0.08s;
+  -webkit-transition:
+    all 0.12s,
+    border-color 0.08s;
+  transition:
+    all 0.12s,
+    border-color 0.08s;
 }
 
 input[type="checkbox"]:checked + label:before {
