@@ -356,25 +356,6 @@ input[type="checkbox"]:checked + label:before {
 }
 
 /* bu alan sepetim sayfasındaki kutu alanı */
-.border-box {
-  margin-top: 100px;
-}
-
-.border-box-2 {
-  margin-top: -90px;
-  margin-left: 110px;
-}
-
-.btn-2 {
-  margin-top: -50px;
-  width: 170px;
-  margin-left: 820px;
-}
-
-.text-center {
-  padding-top: 30px;
-  font-weight: bold;
-}
 
 /* footer daki MENU ALANI */
 
