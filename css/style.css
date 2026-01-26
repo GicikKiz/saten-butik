@@ -357,6 +357,50 @@ input[type="checkbox"]:checked + label:before {
 
 /* bu alan sepetim sayfasındaki kutu alanı */
 
+.shopping-bag {
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  max-width: 500px;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #ffffff;
+  color: #1a2e4e;
+}
+
+/* Sepet İkonu */
+.cart-icon {
+  font-size: 80px;
+  margin-top: 150px;
+  color: #1a2e4e;
+}
+
+/* Başlık */
+.sepet-title {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+/* Buton Tasarımı */
+.btn-start-shopping {
+  display: inline-block;
+  background-color: #1a2e4e;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 18px 0;
+  width: 100%; /* Masaüstünde container'ı doldurur */
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  transition: opacity 0.3s ease;
+}
+
+.btn-start-shopping:hover {
+  opacity: 0.9;
+}
+
 /* footer daki MENU ALANI */
 
 #sidebar {
@@ -391,5 +435,15 @@ footer {
   #sidebar {
     padding-top: 95px;
     padding-left: 10px;
+  }
+
+  .sepet-title {
+    font-size: 32px;
+  }
+  .cart-icon {
+    font-size: 60px;
+  }
+  .container {
+    padding: 15px;
   }
 }
